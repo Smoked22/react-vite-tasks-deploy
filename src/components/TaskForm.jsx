@@ -26,14 +26,14 @@ function TaskForm() {
           value={title}
           className="bg-slate-300 p-3 w-full mb-2"
           autoFocus
-          required
+          required title="Ingrese algo por favor"
         />
         <textarea
           placeholder="Escribe una descripcion"
           onChange={(e) => setDescription(e.target.value)}
           className="bg-slate-300 p-3 w-full mb-2"
           value={description}
-          required
+          required title="En esta cuadro igual rey"
         ></textarea>
         <button className="bg-indigo-500 px-3 py-1 text-white">Guardar</button>
       </form>
